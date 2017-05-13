@@ -1,13 +1,13 @@
 {
   "name": "koa-deploy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template for koa2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node index.js",
     "start": "./node_modules/.bin/nodemon index.js"
   },
-  "author": "",
+  "author": "Robby",
   "license": "ISC",
   "dependencies": {
     "koa": "^2.0.0-alpha.8",
