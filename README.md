@@ -7,12 +7,12 @@
 + Using Webpack  
   
 ## Middleware
-not yet   
+todo   
 ## Router
-not yet   
+todo  
 ## Controller & Template
-not yet   
+todo
 ## Context
-not yet   
+todo
 ## Model
-not yet   
+todo
