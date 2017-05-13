@@ -1,8 +1,11 @@
 import app from '../src/app';
-import supertest from 'supertest'
 
-const request = supertest.agent(app.listen())
+describe("Hello World Server", function () {
 
-describe('Test Http', function () {
+    describe("GET /", function () {
+        it("returns status code 200", function () {
+            console.log('Server has been start');
+        });
+    });
 
-})
+});

@@ -4,7 +4,7 @@
   "description": "Template for koa2",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/nodemon index.js",
+    "test": "mocha --compilers js:babel-core/register --require babel-polyfill",
     "start": "./node_modules/.bin/nodemon index.js"
   },
   "author": "Robby",
