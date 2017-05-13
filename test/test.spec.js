@@ -1,11 +1,24 @@
 import app from '../src/app';
+import supertest from 'supertest';
 
-describe("Hello World Server", function () {
+const request = supertest.agent(app.listen());
 
-    describe("GET /", function () {
-        it("returns status code 200", function () {
-            console.log('Server has been start');
-        });
+describe("Check Demo", function () {
+    it("returns status code 200", function () {
+        console.log('Server has been start');
     });
 
+});
+
+
+describe('Index Page', function () {
+    it('returns status code 200', function (done) {
+        request
+            .get('/')
+            .expect(200)
+            .end(function (err, res) {
+                if (err) throw err;
+                done();
+            })
+    });
 });
