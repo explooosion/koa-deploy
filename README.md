@@ -8,6 +8,7 @@
 ## Tech Stack
 + template for koa2
 + ES6/ES7 with Babel
++ ejs template
 + mocha
   
 ## Koa Package
