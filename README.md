@@ -56,3 +56,6 @@ master
 + vue.js
 + react.js
 + session
+  
+## License
+MIT
