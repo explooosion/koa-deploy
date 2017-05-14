@@ -8,7 +8,6 @@
 ## Tech Stack
 + template for koa2
 + ES6/ES7 with Babel
-+ webpack
 + mocha
   
 ## Koa Package
@@ -51,3 +50,9 @@ master
     └── test.spec.js
 
 ```
+
+## Feature
++ webpack
++ vue.js
++ react.js
++ session
