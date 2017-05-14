@@ -46,13 +46,9 @@ master
 ├── start.js
 ├── src
 │   ├── middleware
-│   │   └── index.js
 │   ├── public
 │   ├── routes
-│   │   ├── index.js
-│   │   └── api.js
 │   ├── view
-│   │   └── index.ejs
 │   └── app.js
 ├── package.json
 └── test
