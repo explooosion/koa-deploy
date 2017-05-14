@@ -1,30 +1,28 @@
 'use strict';
 
+// koa
 import Koa from 'koa';
+import views from 'koa-views';
+import logger from 'koa-logger';
+import bodyParser from 'koa-bodyparser';
+
+// unit
 import middleware from './middleware';
-import Router from './routes';
-import Logger from 'koa-logger';
+import routes from './routes';
 
 const app = new Koa();
 
-//configure custom middleware
+app.use(logger());
+app.use(bodyParser())
+app.use(views(__dirname + '/view', {
+    extension: 'ejs'
+}));
+
 app.use(middleware())
 
+//app.use(routes.routes(), routes.allowedMethods());
+app.use(routes());
 
-// Middleware - Error
-// app.use((ctx, next) => {
-//     try {
-//         next();
-//     } catch (err) {
-//         ctx.response.status = err.status || 500;
-//         ctx.body = err.message;
-//     }
-// });
+app.listen(3000);
 
-app
-    .use(Router())
-    .use(Logger());
-
-app.listen(8080);
-
-export default app;
+export default app

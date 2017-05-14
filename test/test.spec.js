@@ -5,14 +5,6 @@ import supertest from 'supertest';
 
 const request = supertest.agent(app.listen());
 
-describe("Check Demo", function () {
-    it("returns status code 200", function () {
-        console.log('Server has been start');
-    });
-
-});
-
-
 describe('Index Page', function () {
     it('returns status code 200', function (done) {
         request

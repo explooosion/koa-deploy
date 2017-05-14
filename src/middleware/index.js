@@ -1,7 +1,7 @@
 'use strict';
 
 import compose from 'koa-compose';
-import checkauth from './checkauth';
+import checkauth from './check';
 
 export default function middleware() {
     return compose(

@@ -9,9 +9,7 @@ import Router from 'koa-router';
  * /articles/:id/info
  */
 
-const router = Router({
-    prefix: 'articles'
-});
+const router = new Router();
 
 router.get('/:id/author', async(ctx, next) => {
     ctx.body = 'article author page';

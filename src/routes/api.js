@@ -5,12 +5,14 @@ import Router from 'koa-router';
 const router = new Router();
 
 router.get('/', async(ctx, next) => {
-    ctx.body = 'main page';
-});
+    ctx.body = {
+        "status": "success"
+    }
+})
 
 router.get('/app', async(ctx, next) => {
     ctx.body = {
-        "status": "app"
+        "status": "api app"
     }
 })
 
