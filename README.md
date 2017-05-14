@@ -55,12 +55,13 @@ master
     └── test.spec.js
 
 ```
-
-## Feature
-+ webpack
-+ vue.js
-+ react.js
-+ session
   
+## Feature
++  - [x] mocha test checked
++  - [ ] session unchecked
++  - [ ] webpack unchecked 
++  - [ ] vue.js unchecked 
++  - [ ] react.js unchecked 
+ 
 ## License
 MIT
