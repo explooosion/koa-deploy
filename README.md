@@ -57,11 +57,11 @@ master
 ```
   
 ## Feature
-+  - [x] mocha test checked
-+  - [ ] session unchecked
-+  - [ ] webpack unchecked 
-+  - [ ] vue.js unchecked 
-+  - [ ] react.js unchecked 
++  - [x] mocha test
++  - [ ] session
++  - [ ] webpack 
++  - [ ] vue.js 
++  - [ ] react.js 
  
 ## License
 MIT
