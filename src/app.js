@@ -1,34 +1,29 @@
+'use strict';
+
 import Koa from 'koa';
-import Router from 'koa-router';
+import middleware from './middleware';
+import Router from './routes';
 import Logger from 'koa-logger';
-import Compose from 'koa-compose';
 
 const app = new Koa();
-const router = Router();
+
+//configure custom middleware
+app.use(middleware())
+
 
 // Middleware - Error
-app.use((ctx, next) => {
-    try {
-        next();
-    } catch (err) {
-        ctx.response.status = err.status || 500;
-        ctx.body = err.message;
-    }
-});
-
-router.get('/login', (ctx, next) => {
-    ctx.body = "this is the login page";
-});
+// app.use((ctx, next) => {
+//     try {
+//         next();
+//     } catch (err) {
+//         ctx.response.status = err.status || 500;
+//         ctx.body = err.message;
+//     }
+// });
 
 app
-    .use(router.routes())
-    .use(router.allowedMethods())
+    .use(Router())
     .use(Logger());
-
-app.use((ctx, next) => {
-
-    ctx.body = 'Hello World'
-});
 
 app.listen(8080);
 
