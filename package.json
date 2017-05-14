@@ -2,13 +2,19 @@
   "name": "koa-deploy",
   "version": "1.0.0",
   "description": "Template for koa2",
-  "main": "index.js",
+  "main": "start.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require babel-polyfill",
     "start": "./node_modules/.bin/nodemon start.js"
   },
   "author": "Robby",
-  "license": "ISC",
+  "repository": "koa-deploy",
+  "keywords": [
+    "koa",
+    "koa2",
+    "template"
+  ],
+  "license": "MIT",
   "dependencies": {
     "ejs": "^2.5.6",
     "koa": "^2.0.0-alpha.8",
@@ -27,5 +33,9 @@
     "babel-register": "^6.24.1",
     "mocha": "^3.3.0",
     "supertest": "^3.0.0"
-  }
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "homepage": "https://github.com/explooosion/koa-deploy"
 }
