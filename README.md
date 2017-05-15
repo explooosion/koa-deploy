@@ -57,13 +57,12 @@ master
 ```
   
 ## Feature
-+  - [x] mocha test
-+  - [ ] session
-+  - [ ] webpack 
-+  - [ ] mysql
-+  - [ ] mssql
-+  - [ ] vue.js 
-+  - [ ] react.js 
+- [x] mocha test - [ ] session
+- [ ] webpack 
+- [ ] mysql
+- [ ] mssql
+- [ ] vue.js 
+- [ ] react.js 
  
 ## License
 MIT
