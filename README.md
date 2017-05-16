@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/explooosion/koa-deploy.svg?branch=master)](https://travis-ci.org/explooosion/koa-deploy)
 [![dependencies Status](https://david-dm.org/explooosion/koa-deploy.svg)](https://david-dm.org/)
-
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/explooosion/koa-deploy/blob/master/LICENSE)
 
 
 ## Tech Stack
