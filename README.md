@@ -10,6 +10,8 @@
 + ES6/ES7 with Babel
 + ejs template
 + mocha
++ gulp
++ pm2
   
 ## Koa Package
 + koa
@@ -18,7 +20,10 @@
 + koa-bodyparser
 + koa-compose
 + koa-logger
-  
++ koa-mount
++ koa-static
++ koa-convert
+  
 ## Getting Start - one way
 ```
 git clone https://github.com/explooosion/koa-deploy.git
@@ -57,12 +62,12 @@ master
 ```
   
 ## Feature
-- [x] mocha test - [ ] session
+- [x] mocha test
+- [x] gulp task
 - [ ] webpack 
 - [ ] mysql
 - [ ] mssql
-- [ ] vue.js 
-- [ ] react.js 
+
  
 ## License
 MIT
