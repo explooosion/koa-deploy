@@ -5,7 +5,8 @@
   "main": "start.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require babel-polyfill",
-    "start": "./node_modules/.bin/nodemon start.js"
+    "dev": "./node_modules/.bin/nodemon start.js",
+    "start": "pm2 start start.js -i 0"
   },
   "author": "Robby",
   "repository": "koa-deploy",
@@ -20,10 +21,14 @@
     "koa": "^2.0.0-alpha.8",
     "koa-bodyparser": "^3.2.0",
     "koa-compose": "^4.0.0",
+    "koa-convert": "^1.2.0",
     "koa-logger": "^2.0.1",
+    "koa-mount": "^3.0.0",
     "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
     "koa-views": "^6.0.2",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "pm2": "^2.4.6"
   },
   "devDependencies": {
     "babel-plugin-transform-async-to-generator": "^6.24.1",
@@ -31,6 +36,8 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
     "mocha": "^3.3.0",
     "supertest": "^3.0.0"
   },
