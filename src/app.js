@@ -29,6 +29,6 @@ app.use(middleware())
 //app.use(routes.routes(), routes.allowedMethods());
 app.use(routes());
 
-app.listen(3000);
+app.listen(80);
 
 export default app
