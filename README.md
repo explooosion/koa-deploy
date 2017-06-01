@@ -64,10 +64,7 @@ master
 ## Feature
 - [x] mocha test
 - [x] gulp task
-- [ ] webpack 
-- [ ] mysql
-- [ ] mssql
-
+- [ ] webpack
  
 ## License
 MIT
