@@ -13,8 +13,10 @@ const router = new Router();
 
 router.get('/', async(ctx, next) => {
 
-    // render view/index.ejs
-    await ctx.render('./index')
+    await ctx.render('index', {
+        title: 'Koa2',
+        message: 'Hello Koa2',
+    })
 
 })
 

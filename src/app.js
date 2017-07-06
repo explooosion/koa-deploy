@@ -20,8 +20,9 @@ app.use(bodyParser())
 
 app.use(mount("/", convert(serve(__dirname + '/public/'))));
 
-app.use(views(__dirname + '/view', {
-    extension: 'ejs'
+app.use(views(__dirname + '/view/', {
+    // extension: 'ejs'
+    extension: 'pug'
 }));
 
 app.use(middleware())
