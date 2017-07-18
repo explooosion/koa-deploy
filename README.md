@@ -8,7 +8,8 @@
 ## Tech Stack
 + template for koa2
 + ES6/ES7 with Babel
-+ ejs template
++ ejs or jade(pug) template
++ Angular4 framework
 + mocha
 + gulp
 + pm2
@@ -65,6 +66,7 @@ master
 - [x] mocha test
 - [x] gulp task
 - [ ] webpack
- 
+- [X] Angular4
+  
 ## License
 MIT
