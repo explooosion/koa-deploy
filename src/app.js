@@ -22,7 +22,8 @@ app.use(mount("/", convert(serve(__dirname + '/public/'))));
 
 app.use(views(__dirname + '/view/', {
     // extension: 'ejs'
-    extension: 'pug'
+    // extension: 'pug'
+    extension: 'html' // use Angular4
 }));
 
 app.use(middleware())
