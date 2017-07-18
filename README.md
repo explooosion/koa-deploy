@@ -67,7 +67,7 @@ master
 - [x] mocha test
 - [x] gulp task
 - [ ] webpack
-- [X] Angular4
+- [x] Angular4
   
 ## License
 MIT
