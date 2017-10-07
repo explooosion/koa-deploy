@@ -1,5 +1,5 @@
 const env = {
-    'port': 3000
+    'port': 80
 }
 
 module.exports = env;
