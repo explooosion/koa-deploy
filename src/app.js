@@ -12,11 +12,13 @@ import bodyParser from 'koa-bodyparser';
 // unit
 import middleware from './middleware';
 import routes from './routes';
+import env from './config/env';
+import open from 'open';
 
 const app = new Koa();
 
 app.use(logger());
-app.use(bodyParser())
+app.use(bodyParser());
 
 app.use(mount("/", convert(serve(__dirname + '/public/'))));
 
@@ -27,10 +29,14 @@ app.use(views(__dirname + '/view/', {
 }));
 
 app.use(middleware())
-
-//app.use(routes.routes(), routes.allowedMethods());
 app.use(routes());
 
-app.listen(3000);
+app.listen(env.port,
+    () => {
+        console.log(`✅  The server is running at http://localhost:${env.port}/`);
+        open(`http://localhost:${env.port}/`);
+    }
+)
+
 
 export default app

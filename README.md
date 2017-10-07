@@ -14,8 +14,7 @@
 + gulp
 + pm2
   
-## Koa Package
-+ koa
+## Koa Plugin
 + koa-router
 + koa-views  
 + koa-bodyparser
@@ -66,8 +65,8 @@ master
 ## Feature
 - [x] mocha test
 - [x] gulp task
-- [ ] webpack
 - [x] Angular4
-  
+- [ ] Cli
+
 ## License
 MIT
