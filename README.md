@@ -24,7 +24,7 @@
 + koa-static
 + koa-convert
   
-## Getting Start - one way
+## Getting Start
 ```bash
 npm install koa-deploy -g
 ```
