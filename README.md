@@ -25,7 +25,7 @@
 + koa-convert
   
 ## Getting Start - one way
-```
+```bash
 npm install koa-deploy -g
 koa-deploy -i PROJECT-NAME
 cd PROJECT-NAME
