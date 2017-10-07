@@ -27,12 +27,23 @@
 ## Getting Start - one way
 ```bash
 npm install koa-deploy -g
-koa-deploy -i PROJECT-NAME
-cd PROJECT-NAME
-npm install
-npm start
 ```
 
+```bash
+koa-deploy -i PROJECT-NAME
+```
+
+```bash
+cd PROJECT-NAME
+```
+
+```bash
+npm install
+```
+
+```bash
+npm start
+```
 
 1. auto open in browser
 2. http://127.0.0.1/
