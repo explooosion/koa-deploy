@@ -8,7 +8,7 @@ notifications:
         on_success: always
         on_failure: always
 install:
+    - cd lib
     - npm install
 script:
-    - cd lib
     - npm start
