@@ -8,6 +8,8 @@ notifications:
         on_success: always
         on_failure: always
 install:
-    - npm install
+    - npm install koa-deploy -g
 script:
-    - npm test
+    - koa-deploy -i app
+    - cd app
+    - npm start

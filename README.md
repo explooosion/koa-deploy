@@ -26,21 +26,16 @@
   
 ## Getting Start - one way
 ```
-git clone https://github.com/explooosion/koa-deploy.git
-cd koa2-deploy
+npm install koa-deploy -g
+koa-deploy -i PROJECT-NAME
+cd PROJECT-NAME
 npm install
 npm start
 ```
 
-## Getting Start - two way
-```
-npm install koa-deploy
-move koa-deploy's all file from node_modules to '/'
-npm start
-```
 
-1. open in browser
-2. http://127.0.0.1:3000/
+1. auto open in browser
+2. http://127.0.0.1/
   
 ## Directory
 ```
@@ -63,10 +58,10 @@ master
 ```
   
 ## Feature
-- [x] mocha test
+- [x] koa-deploy Cli
 - [x] gulp task
 - [x] Angular4
-- [ ] Cli
+- [x] mocha test
 
 ## License
 MIT
