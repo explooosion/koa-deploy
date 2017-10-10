@@ -1,6 +1,6 @@
 {
   "name": "koa-deploy",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Template for koa2",
   "main": "start.js",
   "scripts": {
