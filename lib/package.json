@@ -42,7 +42,8 @@
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "mocha": "^4.0.1",
-    "supertest": "^3.0.0"
+    "supertest": "^3.0.0",
+    "tape": "^4.8.0"
   },
   "engines": {
     "node": ">= 8.0.0"
