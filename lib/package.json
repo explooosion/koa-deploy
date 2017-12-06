@@ -26,18 +26,6 @@
     "koa-logger": "^3.1.0",
     "koa-mount": "^3.0.0",
     "koa-router": "^7.3.0",
-<<<<<<< HEAD
-    "koa-static": "^4.0.2",
-    "koa-views": "^6.1.3",
-    "nodemon": "^1.12.5",
-    "open": "0.0.5",
-    "pm2": "^2.8.0",
-    "pug": "^2.0.0-rc.4"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.0.3",
-    "babel-plugin-transform-async-to-generator": "^6.24.1",
-=======
     "koa-static": "^4.0.1",
     "koa-views": "^6.1.2",
     "nodemon": "^1.12.1",
@@ -48,24 +36,15 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.2",
->>>>>>> cabc11fef112e5caf377cbed453763eee983062d
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
-<<<<<<< HEAD
     "eslint": "^4.12.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-formatting": "0.0.4",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-mocha": "^4.11.0",
-=======
-    "babel-plugin-transform-async-to-generator": "^6.24.1",
-    "eslint": "^4.11.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-formatting": "0.0.4",
-    "eslint-plugin-import": "^2.8.0",
->>>>>>> cabc11fef112e5caf377cbed453763eee983062d
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "mocha": "^4.0.1",
