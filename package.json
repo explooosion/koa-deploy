@@ -1,6 +1,6 @@
 {
   "name": "koa-deploy",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "description": "Template for koa2",
   "main": "start.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "meow": "^3.7.0"
   },
   "engines": {
-    "node": ">= 8.0.0"
+    "node": ">= 6.0.0"
   },
   "homepage": "https://github.com/explooosion/koa-deploy"
 }
