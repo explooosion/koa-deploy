@@ -1,13 +1,10 @@
 {
   "name": "koa-deploy",
-  "version": "2.2.5",
+  "version": "2.3.0",
   "description": "Template for koa2",
   "main": "start.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --require babel-polyfill",
-    "dev": "./node_modules/.bin/nodemon start.js",
-    "start": "pm2 start start.js",
-    "stop": "pm2 kill"
+    "test": "mocha --compilers js:babel-core/register --require babel-polyfill"
   },
   "bin": {
     "koa-deploy": "./index.js"
