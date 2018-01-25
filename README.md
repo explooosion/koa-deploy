@@ -1,7 +1,7 @@
 # koa-deploy (for koa2)
 
 [![Build Status](https://travis-ci.org/explooosion/koa-deploy.svg?branch=master)](https://travis-ci.org/explooosion/koa-deploy)
-[![dependencies Status](https://david-dm.org/explooosion/koa-deploy.svg)](https://david-dm.org/)
+[![npm version](https://badge.fury.io/js/koa-deploy.svg)](https://badge.fury.io/js/koa-deploy)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/explooosion/koa-deploy/blob/master/LICENSE)
 
 [Github - koa-deploy](https://github.com/explooosion/koa-deploy)
