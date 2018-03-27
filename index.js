@@ -4,29 +4,26 @@ const path = require('path')
 const fs = require('fs')
 const fse = require('fs-extra')
 const meow = require('meow')
-const version = meow().pkg.version
+const version = require('./package.json').version;
 
 const cli = meow(`
     To get version use '-v'
     $ koa-deplay -v
-    version is ${version}
+    Version is ${version}
 
     To install template use '-i [Project Name]'
     $ koa-deplay -i [Project Name]
-    template install now...
+    Installing...
     `)
 
 const run = function (obj) {
 
     if (obj[0] == '-v') {
-        console.log(`version is ${version}`)
-
+        console.log(`Version: ${version}`)
     } else if (obj[0] == '-h') {
         console.log(cli.help)
 
     } else if (obj[0] == '-i') {
-
-        console.log('template install now...')
 
         // Source Directory
         const lib = path.dirname(__filename) + '\\lib'
@@ -44,15 +41,15 @@ const run = function (obj) {
 
 
 async function create(target) {
-    console.log('creating:' + target)
+    console.info('Creating:' + target)
     fs.mkdirSync(target, 777)
 }
 
 async function install(source, target) {
-    console.log('installing')
+    console.info('Installing...')
     fse.copy(source, target, err => {
         if (err) return console.error(err)
-        console.log('success! please npm install')
+        console.info('Success! Please npm install')
     })
 }
 
