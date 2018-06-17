@@ -1,6 +1,6 @@
 {
   "name": "koa-deploy",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "description": "Template for koa2",
   "main": "start.js",
   "scripts": {
@@ -19,8 +19,8 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^2.11.0",
-    "fs-extra": "^4.0.2",
-    "meow": "^3.7.0"
+    "fs-extra": "^6.0.1",
+    "meow": "^5.0.0"
   },
   "engines": {
     "node": ">= 6.0.0"
