@@ -10,7 +10,6 @@
 + template for koa2
 + ES6/ES7 with Babel
 + ejs or jade(pug) template
-+ Angular4 framework
 + mocha
 + gulp
 + pm2
@@ -72,7 +71,6 @@ master
 ## Feature
 - [x] koa-deploy Cli
 - [x] gulp task
-- [x] Angular4
 - [x] mocha test
 
 ## License

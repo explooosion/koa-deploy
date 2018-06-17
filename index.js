@@ -4,7 +4,7 @@ const path = require('path')
 const fs = require('fs')
 const fse = require('fs-extra')
 const meow = require('meow')
-const version = require('./package.json').version;
+const version = require('./package.json').version
 
 const cli = meow(`
     To get version use '-v'
