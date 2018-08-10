@@ -7,6 +7,7 @@
 [Github - koa-deploy](https://github.com/explooosion/koa-deploy)
 
 ## Tech Stack
+
 + template for koa2
 + ES6/ES7 with Babel
 + ejs or jade(pug) template
@@ -15,6 +16,7 @@
 + pm2
   
 ## Koa Plugin
+
 + koa-router
 + koa-views  
 + koa-bodyparser
@@ -25,6 +27,7 @@
 + koa-convert
   
 ## Getting Start
+
 ```bash
 npm install koa-deploy -g
 ```
@@ -41,14 +44,33 @@ cd PROJECT-NAME
 npm install
 ```
 
+## Run
+
+### Production
+
+Start with pm2.
+
 ```bash
 npm start
 ```
 
-1. auto open in browser
+1. auto open in browser (option)
 2. http://127.0.0.1/
-  
+
+Stop the server.
+
+```bash
+npm run stop
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
 ## Directory
+
 ```
 master
 .
@@ -69,9 +91,11 @@ master
 ```
   
 ## Feature
+
 - [x] koa-deploy Cli
 - [x] gulp task
 - [x] mocha test
 
 ## License
+
 MIT
