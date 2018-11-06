@@ -41,7 +41,7 @@ module.exports = {
     "no-cond-assign": [0],
     "no-restricted-globals": [0],
     "comma-dangle": [
-      "error",
+      "warning",
       {
         "arrays": "always-multiline",
         "objects": "always-multiline",
