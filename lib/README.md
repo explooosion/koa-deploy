@@ -1,46 +1,20 @@
-# koa-deploy (for koa2)
+# Koa Deploy
 
-[![Build Status](https://travis-ci.org/explooosion/koa-deploy.svg?branch=master)](https://travis-ci.org/explooosion/koa-deploy)
-[![npm version](https://badge.fury.io/js/koa-deploy.svg)](https://badge.fury.io/js/koa-deploy)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/explooosion/koa-deploy/blob/master/LICENSE)
-
-[Github - koa-deploy](https://github.com/explooosion/koa-deploy)
-
-## Tech Stack
-
-+ template for koa2
-+ ES6/ES7 with Babel
-+ ejs or jade(pug) template
-+ mocha
-+ gulp
-+ pm2
-  
-## Koa Plugin
-
-+ koa-router
-+ koa-views  
-+ koa-bodyparser
-+ koa-compose
-+ koa-logger
-+ koa-mount
-+ koa-static
-+ koa-convert
-  
 ## Getting Start
 
-```bash
+```sh
 npm install koa-deploy -g
 ```
 
-```bash
+```sh
 koa-deploy -i PROJECT-NAME
 ```
 
-```bash
+```sh
 cd PROJECT-NAME
 ```
 
-```bash
+```sh
 npm install
 ```
 
@@ -50,7 +24,7 @@ npm install
 
 Start with pm2.
 
-```bash
+```sh
 npm start
 ```
 
@@ -59,13 +33,13 @@ npm start
 
 Stop the server.
 
-```bash
+```sh
 npm run stop
 ```
 
 ### Development
 
-```bash
+```sh
 npm run dev
 ```
 
@@ -117,13 +91,3 @@ master
   "id": "todo2"
 }
 ```
-
-## Feature
-
-- [x] koa-deploy Cli
-- [x] gulp task
-- [x] mocha test
-
-## License
-
-MIT
